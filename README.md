@@ -4,21 +4,21 @@ Sample data is given in data.txt file. You should execute sql code in database m
 
 ---
 
-### 1. Find all customers from New York.
+### 1. List all employees along with their department names.
 
-### 2. List all electronics products, ordered by price in descending order.
+### 2. Show all employees working in the Engineering department.
 
-### 3. Count the total number of customers.
+### 3. Find average salary of employees.
 
-### 4. Find the total revenue (sum of total_price) from all sales.
+### 4. Calculate the average salary for each department.
 
-### 5. Find the number of sales made after March 1, 2024.
+### 5. Find the total number of employees in each department.
 
-### 6. Find the most expensive product.
+### 6. Count how many employees are assigned to each project.
 
-### 7. Find all sales where the quantity is more than 3.
+### 7. List all employees with their project names and roles.
 
-### 8. Find the total number of items sold.
+### 8. Show all employees who are working on the ‘AI Research’ project.
 
 ---
 
