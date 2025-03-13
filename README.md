@@ -1,4 +1,4 @@
-# SQL Exercise 
+# SQL Exercise 2
 
 sql pdf: https://drive.google.com/file/d/1d6qZTlxu_g44G1RraEx_snEtDkgQVbQz/view?usp=sharing
 
