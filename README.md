@@ -7,13 +7,16 @@ Sample data is given in data.txt file. You should execute sql code in database m
 ---
 
 ### Exercises:
-1. List all employees along with their department names.
-2. Show all employees working in the Engineering department.
-3. Find average salary of employees.
-4. Calculate the average salary for each department.
-5. Find the total number of employees in each department.
-6. Count how many employees are assigned to each project.
-7. List all employees with their project names and roles.
+1. Show employee name and their department name.
+2. List all employees who work in the Engineering department.
+3. Display each employee’s name, salary, and department name,
+4. Show employee name, project name, and their role.
+5. List all employees working on the “AI Research” project.
+6. Show department name, employee name, and project name.
+7. Find employees who:    
+⋅⋅⋅⋅*Work in Engineering
+⋅⋅⋅⋅*Earn more than 80,000
+⋅⋅⋅⋅*Show name, salary, and project name
 8. Show all employees who are working on the ‘AI Research’ project.
 
 ---
