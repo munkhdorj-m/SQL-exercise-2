@@ -14,9 +14,9 @@ Sample data is given in data.txt file. You should execute sql code in database m
 5. List all employees working on the “AI Research” project.
 6. Show department name, employee name, and project name.
 7. Find employees who:    
-⋅⋅⋅⋅*Work in Engineering
-⋅⋅⋅⋅*Earn more than 80,000
-⋅⋅⋅⋅*Show name, salary, and project name
+   *Work in Engineering
+   *Earn more than 80,000
+   *Show name, salary, and project name
 8. Show all employees who are working on the ‘AI Research’ project.
 
 ---
