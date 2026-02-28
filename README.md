@@ -19,8 +19,9 @@ Sample data is given in data.txt file. You should execute sql code in database m
     <li>Earn more than 80,000</li>
     <li>Show name, salary, and project name</li>
    </ul>
-9. Show all employees who are working on the ‘AI Research’ project.
-
+8. List all employees working on Marketing Campaign, including their department name and role.
+9. Show employees from the Sales department who are assigned to any project.
+10. Find the highest-paid employee on each project. Show project name, employee name, and salary.
 ---
 
 
