@@ -30,11 +30,55 @@ CREATE TABLE EmployeeProjects (
     FOREIGN KEY (project_id) REFERENCES Projects(project_id)
 );
 
-SELECT e.name,
-       p.project_name,
-       ep.role
-FROM Employees e
-INNER JOIN EmployeeProjects ep
-    ON e.employee_id = ep.employee_id
-INNER JOIN Projects p
-    ON ep.project_id = p.project_id;
+INSERT INTO Departments (department_name) VALUES
+('HR'),
+('Engineering'),
+('Sales'),
+('Marketing'),
+('Finance');
+
+INSERT INTO Employees (name, salary, department_id) VALUES
+('Alice Johnson', 60000, 1),
+('Michael Scott', 58000, 1),
+
+('Bob Smith', 75000, 2),
+('David Lee', 90000, 2),
+('Grace Hopper', 100000, 2),
+('Alan Turing', 88000, 2),
+('Ada Lovelace', 95000, 2),
+
+('Charlie Brown', 50000, 3),
+('Frank Miller', 55000, 3),
+
+('Eve Watson', 65000, 4),
+('Jack Daniels', 77000, 4),
+
+('Helen Carter', 72000, 5),
+('Isaac Newton', 83000, 5);
+
+INSERT INTO Projects (project_name) VALUES
+('Website Redesign'),
+('AI Research'),
+('Marketing Campaign'),
+('Financial Audit'),
+('Cloud Migration');
+
+INSERT INTO EmployeeProjects (employee_id, project_id, role) VALUES
+(1, 1, 'HR Manager'),
+(3, 1, 'Frontend Developer'),
+(11, 1, 'UI Designer'),
+
+(4, 2, 'Backend Developer'),
+(5, 2, 'AI Engineer'),
+(6, 2, 'Research Scientist'),
+(7, 2, 'ML Engineer'),
+(8, 2, 'Algorithm Specialist'),
+
+(9, 3, 'Sales Lead'),
+(10, 3, 'Sales Rep'),
+(11, 3, 'Marketing Manager'),
+(12, 3, 'Marketing Analyst'),
+
+(13, 4, 'Finance Analyst'),
+(14, 5, 'Cloud Engineer'),
+(7, 5, 'DevOps Engineer');
